@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "ガンマン系"; ObjectID = "1aR-Ub-mfh"; */
+"1aR-Ub-mfh.normalTitle" = "ガンマン系";
+
+/* Class = "UIButton"; normalTitle = "ウィンドミル系"; ObjectID = "3G5-T6-KZ2"; */
+"3G5-T6-KZ2.normalTitle" = "ウィンドミル系";
+
+/* Class = "UILabel"; text = "技"; ObjectID = "AU2-qy-bEn"; */
+"AU2-qy-bEn.text" = "技";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ig8-eZ-1dX"; */
+"Ig8-eZ-1dX.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "パス系"; ObjectID = "JbP-tb-FiT"; */
+"JbP-tb-FiT.normalTitle" = "パス系";
+
+/* Class = "UILabel"; text = "選択"; ObjectID = "LhM-7C-CAB"; */
+"LhM-7C-CAB.text" = "選択";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "S1J-oS-cap"; */
+"S1J-oS-cap.title" = "Title";
+
+/* Class = "UIButton"; normalTitle = "ソニック系"; ObjectID = "VZe-Rd-bQT"; */
+"VZe-Rd-bQT.normalTitle" = "ソニック系";
+
+/* Class = "UIButton"; normalTitle = "技選択"; ObjectID = "ZlN-CM-PUF"; */
+"ZlN-CM-PUF.normalTitle" = "技選択";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d6c-vt-85C"; */
+"d6c-vt-85C.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eQ5-Yo-48b"; */
+"eQ5-Yo-48b.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "i9m-Ks-Jhq"; */
+"i9m-Ks-Jhq.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "バックアラウンド系"; ObjectID = "lIp-gH-cql"; */
+"lIp-gH-cql.normalTitle" = "バックアラウンド系";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oKH-9e-FaC"; */
+"oKH-9e-FaC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ocV-ZX-PtB"; */
+"ocV-ZX-PtB.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "特殊系"; ObjectID = "rC2-jG-b2t"; */
+"rC2-jG-b2t.normalTitle" = "特殊系";
+
+/* Class = "UIButton"; normalTitle = "ノーマル系"; ObjectID = "wOK-xf-vB7"; */
+"wOK-xf-vB7.normalTitle" = "ノーマル系";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ySv-8I-R61"; */
+"ySv-8I-R61.text" = "Label";

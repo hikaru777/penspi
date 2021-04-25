@@ -9,9 +9,40 @@
 import UIKit
 
 class ganman2ViewController: UIViewController {
+    
+    @IBOutlet var label3: UILabel!
+    
+    var technique = String()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        if technique == "ガンマン" {
+            label3.text = "aaa"
+            
+        }
+        
+        if technique == "ガンマンリバース" {
+            label3.text = ""
+            
+        }
+        
+        if technique == "スキップガンマン" {
+            label3.text = ""
+            
+        }
+        
+        if technique == "ガトリング" {
+            label3.text = ""
+            
+        }
+        
+        if technique == "チャージガトリング" {
+            label3.text = ""
+            
+        }
 
         // Do any additional setup after loading the view.
     }

@@ -51,7 +51,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let superController = segue.destination as! Nomal2ViewController
             superController.technique = self.selectedTechnique
         }
-              
            
     
     }

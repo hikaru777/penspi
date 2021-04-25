@@ -12,6 +12,7 @@ class tokusyuViewController: UIViewController, UITableViewDataSource, UITableVie
    
     @IBOutlet var table: UITableView!
     
+    var selectedTechnique: String = ""
     var technique = [String]()
     
     override func viewDidLoad() {
@@ -38,6 +39,17 @@ class tokusyuViewController: UIViewController, UITableViewDataSource, UITableVie
         return cell!
        }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath :IndexPath) {
+           tableView.deselectRow(at: indexPath, animated: true)
            print("\(technique[indexPath.row])が選ばれました")
+           selectedTechnique = technique[indexPath.row]
+           performSegue(withIdentifier: "toResultView6", sender: nil)
        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           
+        if segue.identifier == "toResultView6" {
+            let superController = segue.destination as! tokusyu2ViewController
+            superController.technique = self.selectedTechnique
+}
+}
 }

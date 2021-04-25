@@ -53,12 +53,13 @@ class sonikkuViewController: UIViewController, UITableViewDataSource, UITableVie
            
        }
        
-       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-              
-           if segue.identifier == "toResultView2" {
-               let superController = segue.destination as! sonikku2ViewController
-               superController.technique = self.selectedTechnique
-           }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           
+        if segue.identifier == "toResultView2" {
+            let superController = segue.destination as! sonikku2ViewController
+            superController.technique = self.selectedTechnique
+        }
+       
        }
 
 }

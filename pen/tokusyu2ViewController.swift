@@ -9,9 +9,61 @@
 import UIKit
 
 class tokusyu2ViewController: UIViewController {
-
+    
+    @IBOutlet var label6: UILabel!
+    
+    var technique = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
+        
+        if technique == "" {
+            label6.text = ""
+        }
 
         // Do any additional setup after loading the view.
     }

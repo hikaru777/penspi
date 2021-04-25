@@ -9,9 +9,115 @@
 import UIKit
 
 class bakkuaraundo2ViewController: UIViewController {
+    
+    @IBOutlet var label7: UILabel!
 
+    var technique = String()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
+        if technique == "" {
+            label7.text = ""
+        }
+        
 
         // Do any additional setup after loading the view.
     }

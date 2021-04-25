@@ -12,6 +12,7 @@ class passViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
  @IBOutlet var table5: UITableView!
     
+    var selectedTechnique: String = ""
     var technique = [String]()
     
     override func viewDidLoad() {
@@ -38,7 +39,19 @@ class passViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         return cell!
        }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath :IndexPath) {
+           tableView.deselectRow(at: indexPath, animated: true)
            print("\(technique[indexPath.row])が選ばれました")
+           selectedTechnique = technique[indexPath.row]
+           performSegue(withIdentifier: "toResultView5", sender: nil)
        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           
+        if segue.identifier == "toResultView5" {
+            let superController = segue.destination as! pass2ViewController
+            superController.technique = self.selectedTechnique
+}
+}
 }

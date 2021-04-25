@@ -13,6 +13,7 @@ class hafuulinmidoruViewController: UIViewController, UITableViewDataSource, UIT
    
     @IBOutlet var table4: UITableView!
     
+    var selectedTechnique: String = ""
     var technique = [String]()
     
     override func viewDidLoad() {
@@ -32,14 +33,25 @@ class hafuulinmidoruViewController: UIViewController, UITableViewDataSource, UIT
        }
        
        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell3")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell6")
         
         cell?.textLabel?.text = technique[indexPath.row]
         
         return cell!
        }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath :IndexPath) {
+           tableView.deselectRow(at: indexPath, animated: true)
            print("\(technique[indexPath.row])が選ばれました")
+           selectedTechnique = technique[indexPath.row]
+           performSegue(withIdentifier: "toResultView4", sender: nil)
        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           
+        if segue.identifier == "toResultView4" {
+            let superController = segue.destination as! ha_fuulinmidoru2ViewController
+            superController.technique = self.selectedTechnique
 }
 
+        }
+}

@@ -12,6 +12,7 @@ class ganmanViewController: UIViewController, UITableViewDataSource, UITableView
    
     @IBOutlet var table3: UITableView!
     
+    var selectedTechnique: String = ""
     var technique = [String]()
     
     override func viewDidLoad() {
@@ -35,12 +36,22 @@ class ganmanViewController: UIViewController, UITableViewDataSource, UITableView
         cell?.textLabel?.text = technique[indexPath.row]
         return cell!
        }
-    
 
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath :IndexPath) {
+           tableView.deselectRow(at: indexPath, animated: true)
            print("\(technique[indexPath.row])が選ばれました")
+           selectedTechnique = technique[indexPath.row]
+           performSegue(withIdentifier: "toResultView3", sender: nil)
+           
        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           
+        if segue.identifier == "toResultView3" {
+            let superController = segue.destination as! ganman2ViewController
+            superController.technique = self.selectedTechnique
+        }
 }
 
 
+}

@@ -9,9 +9,42 @@
 import UIKit
 
 class ha_fuulinmidoru2ViewController: UIViewController {
+    
+    @IBOutlet var label4: UILabel!
+    
+    
+    var technique = String()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if technique == "ハーフウィンドミル" {
+        label4.text = ""
+            
+    }
+        
+        if technique == "ハーフウィンドミル" {
+            label4.text = ""
+            
+    }
+        
+        if technique == "ハーフウィンドミル" {
+            label4.text = ""
+            
+    }
+        
+        if technique == "ハーフウィンドミル" {
+            label4.text = ""
+            
+    }
+        
+        if technique == "ハーフウィンドミル" {
+            label4.text = "" 
+            
+    }
+        
+      
 
         // Do any additional setup after loading the view.
     }
