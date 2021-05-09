@@ -64,16 +64,16 @@
                                 <rect key="frame" x="60" y="128" width="210" height="694"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CRT-Kv-UXa">
-                                        <rect key="frame" x="0.0" y="0.0" width="127.5" height="87"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="127.5" height="231.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="技" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AU2-qy-bEn">
-                                                <rect key="frame" x="0.0" y="0.0" width="42.5" height="87"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="42.5" height="231.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="選択" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhM-7C-CAB">
-                                                <rect key="frame" x="42.5" y="0.0" width="85" height="87"/>
+                                                <rect key="frame" x="42.5" y="0.0" width="85" height="231.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                                 <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -81,7 +81,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOK-xf-vB7">
-                                        <rect key="frame" x="0.0" y="87" width="107" height="86.5"/>
+                                        <rect key="frame" x="0.0" y="231.5" width="107" height="231"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
                                         <state key="normal" title="ノーマル系">
                                             <color key="titleColor" red="0.74223124979999999" green="0.742339313" blue="0.74220758679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -91,63 +91,13 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZe-Rd-bQT">
-                                        <rect key="frame" x="0.0" y="173.5" width="107" height="87"/>
+                                        <rect key="frame" x="0.0" y="462.5" width="107" height="231.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
                                         <state key="normal" title="ソニック系">
                                             <color key="titleColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="A6B-Um-lUP" kind="show" id="6GZ-74-OFd"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aR-Ub-mfh">
-                                        <rect key="frame" x="0.0" y="260.5" width="107" height="86.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
-                                        <state key="normal" title="ガンマン系">
-                                            <color key="titleColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="vfC-YP-IrU" kind="show" id="W9K-fd-sI2"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbP-tb-FiT">
-                                        <rect key="frame" x="0.0" y="347" width="65" height="87"/>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
-                                        <state key="normal" title="パス系">
-                                            <color key="titleColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="Iqy-uW-Li1" kind="show" id="7Vn-LU-lYB"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rC2-jG-b2t">
-                                        <rect key="frame" x="0.0" y="434" width="65" height="86.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
-                                        <state key="normal" title="特殊系">
-                                            <color key="titleColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="IdM-he-OyK" kind="show" id="lfa-GH-ZMp"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3G5-T6-KZ2">
-                                        <rect key="frame" x="0.0" y="520.5" width="150" height="87"/>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
-                                        <state key="normal" title="ウィンドミル系">
-                                            <color key="titleColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="3NJ-Z5-wzP" kind="show" id="0vh-dm-mUK"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIp-gH-cql">
-                                        <rect key="frame" x="0.0" y="607.5" width="193" height="86.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
-                                        <state key="normal" title="バックアラウンド系">
-                                            <color key="titleColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="eqr-S2-W9J" kind="show" id="qt6-50-q17"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -224,17 +174,17 @@
             <objects>
                 <viewController id="1aK-hj-SVv" customClass="ha_fuulinmidoru2ViewController" customModule="pen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y2V-Wy-l2U">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ig8-eZ-1dX">
-                                <rect key="frame" x="22" y="826.5" width="370" height="25.5"/>
+                                <rect key="frame" x="22" y="772.5" width="370" height="25.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="12Z-Jw-8Ec">
-                                <rect key="frame" x="22" y="138" width="370" height="668.5"/>
+                                <rect key="frame" x="22" y="50" width="370" height="702.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2020-12-11 20.49.57.png" translatesAutoresizingMaskIntoConstraints="NO" id="BuM-kg-AW0">
@@ -242,11 +192,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xf-y7-iTZ">
-                                <rect key="frame" x="22" y="138" width="370" height="668.5"/>
+                                <rect key="frame" x="22" y="50" width="370" height="702.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exZ-ih-xK4">
-                                <rect key="frame" x="2" y="826.5" width="410" height="26.5"/>
+                                <rect key="frame" x="2" y="772.5" width="410" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -286,7 +236,7 @@
             <objects>
                 <viewController id="bVQ-w4-IjQ" customClass="bakkuaraundo2ViewController" customModule="pen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mcZ-TB-Iht">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2020-12-13 16.04.05.png" translatesAutoresizingMaskIntoConstraints="NO" id="M0C-wd-IlP">
@@ -294,11 +244,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q3X-ri-otH">
-                                <rect key="frame" x="22" y="138" width="370" height="668.5"/>
+                                <rect key="frame" x="22" y="50" width="370" height="702.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocV-ZX-PtB">
-                                <rect key="frame" x="22" y="826.5" width="370" height="25.5"/>
+                                <rect key="frame" x="22" y="772.5" width="370" height="25.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -391,7 +341,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="QAP-37-hUj"/>
                     <connections>
-                        <outlet property="table4" destination="aOK-8g-8ki" id="Ker-Qt-Smh"/>
                         <segue destination="1aK-hj-SVv" kind="show" identifier="toResultView4" id="8RY-F9-QfH"/>
                     </connections>
                 </viewController>
@@ -428,7 +377,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="n3H-a9-xw6"/>
                     <connections>
-                        <outlet property="table" destination="epL-DT-uVP" id="DRd-sU-I68"/>
                         <segue destination="bVQ-w4-IjQ" kind="show" identifier="toResultView7" id="WhH-x2-8Rp"/>
                     </connections>
                 </viewController>
@@ -502,7 +450,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="Vwr-ro-UnA"/>
                     <connections>
-                        <outlet property="table" destination="7CE-Ns-b0I" id="qtS-GD-3rQ"/>
                         <segue destination="pVl-wp-ap0" kind="show" identifier="toResultView6" id="oSb-TR-9bo"/>
                     </connections>
                 </viewController>
@@ -515,7 +462,7 @@
             <objects>
                 <viewController id="pVl-wp-ap0" customClass="tokusyu2ViewController" customModule="pen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5b0-Ji-kwq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2020-12-13 16.04.05.png" translatesAutoresizingMaskIntoConstraints="NO" id="dm0-SW-OfO">
@@ -523,11 +470,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U0s-jN-BVC">
-                                <rect key="frame" x="22" y="138" width="370" height="668.5"/>
+                                <rect key="frame" x="22" y="50" width="370" height="702.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6c-vt-85C">
-                                <rect key="frame" x="22" y="826.5" width="370" height="25.5"/>
+                                <rect key="frame" x="22" y="772.5" width="370" height="25.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -583,7 +530,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="j3N-Zb-sUf"/>
                     <connections>
-                        <outlet property="table5" destination="M80-Ck-KuS" id="vK9-bp-fhE"/>
                         <segue destination="Mg9-EF-D81" kind="show" identifier="toResultView5" id="2Gp-jT-x3r"/>
                     </connections>
                 </viewController>
@@ -620,7 +566,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="wjM-JC-Ynq"/>
                     <connections>
-                        <outlet property="table3" destination="DE7-Bj-umz" id="Q47-qW-ods"/>
                         <segue destination="dPs-0l-7TT" kind="show" identifier="toResultView3" id="jrB-hj-ctj"/>
                     </connections>
                 </viewController>
@@ -633,7 +578,7 @@
             <objects>
                 <viewController id="dPs-0l-7TT" customClass="ganman2ViewController" customModule="pen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XQe-Fb-bY0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2020-12-11 20.49.57.png" translatesAutoresizingMaskIntoConstraints="NO" id="VZl-GN-y0k">
@@ -641,11 +586,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i7Y-Ya-oCq">
-                                <rect key="frame" x="22" y="138" width="370" height="668.5"/>
+                                <rect key="frame" x="22" y="50" width="370" height="702.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9m-Ks-Jhq">
-                                <rect key="frame" x="22" y="826.5" width="370" height="25.5"/>
+                                <rect key="frame" x="22" y="772.5" width="370" height="25.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -750,7 +695,7 @@
             <objects>
                 <viewController id="Mg9-EF-D81" customClass="pass2ViewController" customModule="pen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zpj-0F-vYo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2020-12-11 20.49.57.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dxf-Sl-YGB">
@@ -758,11 +703,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6EW-P9-16k">
-                                <rect key="frame" x="22" y="138" width="370" height="668.5"/>
+                                <rect key="frame" x="22" y="50" width="370" height="702.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ5-Yo-48b">
-                                <rect key="frame" x="22" y="826.5" width="370" height="25.5"/>
+                                <rect key="frame" x="22" y="772.5" width="370" height="25.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
