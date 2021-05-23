@@ -1,0 +1,6 @@
+framework module Pods_pen {
+  umbrella header "Pods-pen-umbrella.h"
+
+  export *
+  module * { export * }
+}
