@@ -15,6 +15,7 @@
 		4B188E1724C4160800960EA0 /* Nomal2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B188E1624C4160800960EA0 /* Nomal2ViewController.swift */; };
 		4B1BC1A82529F4D800B6113E /* sonikku2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BC1A72529F4D800B6113E /* sonikku2ViewController.swift */; };
 		4B1BC1AE2557C78100B6113E /* nomal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B1BC1AD2557C77300B6113E /* nomal.mp4 */; };
+		4B1C937F26604569002F5F5C /* Explanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1C937E26604569002F5F5C /* Explanation.swift */; };
 		4B53929D2659F98F0009041B /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B5392912659F98F0009041B /* 1024.png */; };
 		4B53929E2659F98F0009041B /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B5392922659F98F0009041B /* 60.png */; };
 		4B53929F2659F98F0009041B /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B5392932659F98F0009041B /* 58.png */; };
@@ -40,7 +41,6 @@
 		4BA3F742249F1E37003DC593 /* ganmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3F741249F1E37003DC593 /* ganmanViewController.swift */; };
 		4BA3F744249F210F003DC593 /* ha-fuulinmidoruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3F743249F210F003DC593 /* ha-fuulinmidoruViewController.swift */; };
 		4BA3F748249F2D57003DC593 /* JapenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3F747249F2D57003DC593 /* JapenData.swift */; };
-		4BD0845125EB610600569FCF /* sanpuru.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BD0845025EB610600569FCF /* sanpuru.mp4 */; };
 		4BD0845425EB71F700569FCF /* スクリーンショット 2020-12-11 20.49.57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD0845325EB71F600569FCF /* スクリーンショット 2020-12-11 20.49.57.png */; };
 		4BD0845725EB720A00569FCF /* スクリーンショット 2020-12-11 20.48.40.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BD0845625EB720A00569FCF /* スクリーンショット 2020-12-11 20.48.40.jpeg */; };
 		4BD0845A25EB722C00569FCF /* スクリーンショット 2020-12-11 20.48.40.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD0845925EB722C00569FCF /* スクリーンショット 2020-12-11 20.48.40.png */; };
@@ -60,6 +60,7 @@
 		4B188E1624C4160800960EA0 /* Nomal2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomal2ViewController.swift; sourceTree = "<group>"; };
 		4B1BC1A72529F4D800B6113E /* sonikku2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonikku2ViewController.swift; sourceTree = "<group>"; };
 		4B1BC1AD2557C77300B6113E /* nomal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nomal.mp4; sourceTree = "<group>"; };
+		4B1C937E26604569002F5F5C /* Explanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explanation.swift; sourceTree = "<group>"; };
 		4B5392912659F98F0009041B /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
 		4B5392922659F98F0009041B /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
 		4B5392932659F98F0009041B /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
@@ -87,7 +88,6 @@
 		4BA3F741249F1E37003DC593 /* ganmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganmanViewController.swift; sourceTree = "<group>"; };
 		4BA3F743249F210F003DC593 /* ha-fuulinmidoruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ha-fuulinmidoruViewController.swift"; sourceTree = "<group>"; };
 		4BA3F747249F2D57003DC593 /* JapenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapenData.swift; sourceTree = "<group>"; };
-		4BD0845025EB610600569FCF /* sanpuru.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sanpuru.mp4; path = ../../../Desktop/sanpuru.mp4; sourceTree = "<group>"; };
 		4BD0845325EB71F600569FCF /* スクリーンショット 2020-12-11 20.49.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット 2020-12-11 20.49.57.png"; path = "../../../Desktop/penback/penroot/ pen/スクリーンショット 2020-12-11 20.49.57.png"; sourceTree = "<group>"; };
 		4BD0845625EB720A00569FCF /* スクリーンショット 2020-12-11 20.48.40.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "スクリーンショット 2020-12-11 20.48.40.jpeg"; path = "../../../Desktop/penroot/ pen/スクリーンショット 2020-12-11 20.48.40.jpeg"; sourceTree = "<group>"; };
 		4BD0845925EB722C00569FCF /* スクリーンショット 2020-12-11 20.48.40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット 2020-12-11 20.48.40.png"; path = "../../../Desktop/penroot/ pen/スクリーンショット 2020-12-11 20.48.40.png"; sourceTree = "<group>"; };
@@ -152,6 +152,7 @@
 				4B5392902659F98F0009041B /* iconImage */,
 				4BA3F728249F0159003DC593 /* AppDelegate.swift */,
 				4BA3F72A249F0159003DC593 /* SceneDelegate.swift */,
+				4B1C937E26604569002F5F5C /* Explanation.swift */,
 				4BD0845F25EB739500569FCF /* スクリーンショット 2020-12-11 20.48.40 2.jpeg */,
 				4BD0845925EB722C00569FCF /* スクリーンショット 2020-12-11 20.48.40.png */,
 				4BD0845625EB720A00569FCF /* スクリーンショット 2020-12-11 20.48.40.jpeg */,
@@ -162,7 +163,6 @@
 				4BA3F733249F015C003DC593 /* LaunchScreen.storyboard */,
 				4BA3F736249F015C003DC593 /* Info.plist */,
 				4BE09C46264BA71E006DDEA7 /* GoogleService-Info.plist */,
-				4BD0845025EB610600569FCF /* sanpuru.mp4 */,
 				4B1BC1AD2557C77300B6113E /* nomal.mp4 */,
 				4BA3F73D249F03DB003DC593 /* mokuziViewController.swift */,
 				4BA3F72C249F0159003DC593 /* ViewController.swift */,
@@ -278,7 +278,6 @@
 				4B5392A82659F98F0009041B /* 87.png in Resources */,
 				4BD0845A25EB722C00569FCF /* スクリーンショット 2020-12-11 20.48.40.png in Resources */,
 				4B5392A62659F98F0009041B /* 80.png in Resources */,
-				4BD0845125EB610600569FCF /* sanpuru.mp4 in Resources */,
 				4B5392A22659F98F0009041B /* 120.png in Resources */,
 				4BE09C47264BA71E006DDEA7 /* GoogleService-Info.plist in Resources */,
 				4BD0845D25EB724900569FCF /* スクリーンショット 2020-12-13 16.04.05.png in Resources */,
@@ -344,6 +343,7 @@
 				4B5F98D924B1B34100D87B6F /* tokusyuViewController.swift in Sources */,
 				4B0D8FC025FCDCB200DFFF66 /* bakkuaraundo2ViewController.swift in Sources */,
 				4BA3F729249F0159003DC593 /* AppDelegate.swift in Sources */,
+				4B1C937F26604569002F5F5C /* Explanation.swift in Sources */,
 				4BA3F744249F210F003DC593 /* ha-fuulinmidoruViewController.swift in Sources */,
 				4B0D8FAD25FCD91C00DFFF66 /* ganman2ViewController.swift in Sources */,
 				4BA3F742249F1E37003DC593 /* ganmanViewController.swift in Sources */,
