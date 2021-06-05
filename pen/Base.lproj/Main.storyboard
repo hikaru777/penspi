@@ -147,7 +147,7 @@
                                 <rect key="frame" x="22" y="138" width="370" height="334"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="334" id="wn8-GR-qrO"/>
+                                    <constraint firstAttribute="height" constant="334" id="gU3-4M-9GK"/>
                                 </constraints>
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ks7-AY-i7d">
@@ -163,12 +163,12 @@
                         <viewLayoutGuide key="safeArea" id="djV-bb-ItX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ks7-AY-i7d" firstAttribute="top" secondItem="6m9-Z2-ygF" secondAttribute="bottom" constant="10" id="2eE-9i-ifa"/>
                             <constraint firstItem="6m9-Z2-ygF" firstAttribute="leading" secondItem="djV-bb-ItX" secondAttribute="leading" constant="22" id="DSg-ht-MkX"/>
                             <constraint firstItem="djV-bb-ItX" firstAttribute="trailing" secondItem="ks7-AY-i7d" secondAttribute="trailing" constant="20" id="Ebe-zG-hh4"/>
                             <constraint firstItem="7Lq-Et-xQj" firstAttribute="top" secondItem="ks7-AY-i7d" secondAttribute="bottom" constant="10" id="NPU-Sa-BMO"/>
                             <constraint firstItem="djV-bb-ItX" firstAttribute="trailing" secondItem="7Lq-Et-xQj" secondAttribute="trailing" constant="10" id="Prh-rd-Ivm"/>
                             <constraint firstItem="6m9-Z2-ygF" firstAttribute="top" secondItem="djV-bb-ItX" secondAttribute="top" constant="50" id="TYJ-kW-Ejh"/>
+                            <constraint firstItem="ks7-AY-i7d" firstAttribute="top" secondItem="6m9-Z2-ygF" secondAttribute="bottom" constant="10" id="hL2-Ta-bE4"/>
                             <constraint firstItem="djV-bb-ItX" firstAttribute="trailing" secondItem="6m9-Z2-ygF" secondAttribute="trailing" constant="22" id="ig5-vu-svs"/>
                             <constraint firstItem="ks7-AY-i7d" firstAttribute="leading" secondItem="djV-bb-ItX" secondAttribute="leading" constant="20" id="lys-fB-JYu"/>
                             <constraint firstItem="7Lq-Et-xQj" firstAttribute="leading" secondItem="djV-bb-ItX" secondAttribute="leading" constant="10" id="nca-ie-M5b"/>

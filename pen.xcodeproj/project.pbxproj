@@ -26,7 +26,6 @@
 		4B5392A52659F98F0009041B /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B5392992659F98F0009041B /* 57.png */; };
 		4B5392A62659F98F0009041B /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B53929A2659F98F0009041B /* 80.png */; };
 		4B5392A72659F98F0009041B /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B53929B2659F98F0009041B /* 40.png */; };
-		4B5392A82659F98F0009041B /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B53929C2659F98F0009041B /* 87.png */; };
 		4B5F98D724B1B20F00D87B6F /* passViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F98D624B1B20F00D87B6F /* passViewController.swift */; };
 		4B5F98D924B1B34100D87B6F /* tokusyuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F98D824B1B34100D87B6F /* tokusyuViewController.swift */; };
 		4B5F98DB24B1B3CF00D87B6F /* bakkuaraundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F98DA24B1B3CF00D87B6F /* bakkuaraundoViewController.swift */; };
@@ -71,7 +70,6 @@
 		4B5392992659F98F0009041B /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
 		4B53929A2659F98F0009041B /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
 		4B53929B2659F98F0009041B /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
-		4B53929C2659F98F0009041B /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
 		4B5F98D624B1B20F00D87B6F /* passViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passViewController.swift; sourceTree = "<group>"; };
 		4B5F98D824B1B34100D87B6F /* tokusyuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokusyuViewController.swift; sourceTree = "<group>"; };
 		4B5F98DA24B1B3CF00D87B6F /* bakkuaraundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakkuaraundoViewController.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				4B5392992659F98F0009041B /* 57.png */,
 				4B53929A2659F98F0009041B /* 80.png */,
 				4B53929B2659F98F0009041B /* 40.png */,
-				4B53929C2659F98F0009041B /* 87.png */,
 			);
 			path = iconImage;
 			sourceTree = "<group>";
@@ -275,7 +272,6 @@
 				4B5392A72659F98F0009041B /* 40.png in Resources */,
 				4B53929D2659F98F0009041B /* 1024.png in Resources */,
 				4B53929F2659F98F0009041B /* 58.png in Resources */,
-				4B5392A82659F98F0009041B /* 87.png in Resources */,
 				4BD0845A25EB722C00569FCF /* スクリーンショット 2020-12-11 20.48.40.png in Resources */,
 				4B5392A62659F98F0009041B /* 80.png in Resources */,
 				4B5392A22659F98F0009041B /* 120.png in Resources */,
