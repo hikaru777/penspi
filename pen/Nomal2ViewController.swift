@@ -75,64 +75,64 @@ class Nomal2ViewController: UIViewController {
         
        if technique == "ノーマル"{
         textview.text = "\(ex.nomal)"
-      //      path = Bundle.main.path(forResource: "nomal", ofType: "mp4")!
+           path = Bundle.main.path(forResource: "IMG_0779", ofType: "mov")!
             
         }
         if technique == "ダブル" {
             textview.text = "\(ex.dabul)"
-   //         path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+          path = Bundle.main.path(forResource: "IMG_0780", ofType: "mov")!
         }
         if technique == "リバース" {
             textview.text = "\(ex.rebasu)"
-            //path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+         path = Bundle.main.path(forResource: "IMG_0778", ofType: "mov")!
         }
         if technique == "シングルアクセル" {
             textview.text = "\(ex.singul)"
-    //        path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+            path = Bundle.main.path(forResource: "IMG_0777", ofType: "mov")!
         }
         if technique == "ハーモニック" {
                   textview.text = "\(ex.hamonic)"
-    //        path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+            path = Bundle.main.path(forResource: "IMG_0776", ofType: "mov")!
               }
         if technique == "セミリバース" {
          textview.text = "\(ex.cemiriba)"
-    //        path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+          path = Bundle.main.path(forResource: "IMG_0772", ofType: "mov")!
         }
         if technique == "カウンター" {
             textview.text = "\(ex.countor)"
-     //       path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+           path = Bundle.main.path(forResource: "IMG_0781", ofType: "mov")!
         }
         if technique == "パームスピン" {
             textview.text = "\(ex.pamuspi)"
-     //       path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+         path = Bundle.main.path(forResource: "IMG_0771", ofType: "mov")!
         }
         if technique == "カージオイド" {
             textview.text = "\(ex.kazioid)"
-     //       path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+        path = Bundle.main.path(forResource: "IMG_0768", ofType: "mov")!
         }
         if technique == "シングルアクセルリバース" {
             textview.text = "\(ex.singlriba)"
-     //       path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+            path = Bundle.main.path(forResource: "IMG_0766", ofType: "mov")!
         }
         if technique == "フィンガーレスノーマル" {
             textview.text = "\(ex.flnoma)"
-     //       path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+            path = Bundle.main.path(forResource: "IMG_0763", ofType: "mov")!
         }
         if technique == "フィンガーレスリバース" {
             textview.text = "\(ex.flreba)"
-       //     path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+           path = Bundle.main.path(forResource: "IMG_0765", ofType: "mov")!
         }
         if technique == "ハーフフェイクトノーマル" {
             textview.text = "\(ex.haffnoma)"
-       //     path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+          path = Bundle.main.path(forResource: "IMG_0761", ofType: "mov")!
         }
         if technique == "ハーフフェイクトリバース" {
             textview.text = "\(ex.haffreba)"
-           // path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+            path = Bundle.main.path(forResource: "IMG_0762", ofType: "mov")!
         }
         if technique == "コンティニュアスシングルアクセルカージオイド" {
             textview.text = "\(ex.ctkazi)"
-        //    path = Bundle.main.path(forResource: "sanpuru", ofType: "mp4")!
+            path = Bundle.main.path(forResource: "IMG_0760", ofType: "mov")!
         }
        
         
