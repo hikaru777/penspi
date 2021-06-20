@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     @IBOutlet var table: UITableView!
@@ -39,6 +38,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell!
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath :IndexPath) {
+        
         tableView.deselectRow(at: indexPath, animated: true)
         print("\(technique[indexPath.row])が選ばれました")
         selectedTechnique = technique[indexPath.row]

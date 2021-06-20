@@ -29,6 +29,7 @@
 		4B5F98D724B1B20F00D87B6F /* passViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F98D624B1B20F00D87B6F /* passViewController.swift */; };
 		4B5F98D924B1B34100D87B6F /* tokusyuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F98D824B1B34100D87B6F /* tokusyuViewController.swift */; };
 		4B5F98DB24B1B3CF00D87B6F /* bakkuaraundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F98DA24B1B3CF00D87B6F /* bakkuaraundoViewController.swift */; };
+		4BA0F74B266B3C54005B6ED2 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0F74A266B3C54005B6ED2 /* addViewController.swift */; };
 		4BA3F729249F0159003DC593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3F728249F0159003DC593 /* AppDelegate.swift */; };
 		4BA3F72B249F0159003DC593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3F72A249F0159003DC593 /* SceneDelegate.swift */; };
 		4BA3F72D249F0159003DC593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3F72C249F0159003DC593 /* ViewController.swift */; };
@@ -73,6 +74,7 @@
 		4B5F98D624B1B20F00D87B6F /* passViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passViewController.swift; sourceTree = "<group>"; };
 		4B5F98D824B1B34100D87B6F /* tokusyuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokusyuViewController.swift; sourceTree = "<group>"; };
 		4B5F98DA24B1B3CF00D87B6F /* bakkuaraundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakkuaraundoViewController.swift; sourceTree = "<group>"; };
+		4BA0F74A266B3C54005B6ED2 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
 		4BA3F725249F0159003DC593 /* pen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA3F728249F0159003DC593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BA3F72A249F0159003DC593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				4B1BC1AD2557C77300B6113E /* nomal.mp4 */,
 				4BA3F73D249F03DB003DC593 /* mokuziViewController.swift */,
 				4BA3F72C249F0159003DC593 /* ViewController.swift */,
+				4BA0F74A266B3C54005B6ED2 /* addViewController.swift */,
 				4B188E1624C4160800960EA0 /* Nomal2ViewController.swift */,
 				4BA3F73F249F1D34003DC593 /* sonikkuViewController.swift */,
 				4B1BC1A72529F4D800B6113E /* sonikku2ViewController.swift */,
@@ -348,6 +351,7 @@
 				4B0D8FB825FCDC8100DFFF66 /* pass2ViewController.swift in Sources */,
 				4B0D8FB525FCDC6E00DFFF66 /* ha-fuulinmidoru2ViewController.swift in Sources */,
 				4BA3F740249F1D34003DC593 /* sonikkuViewController.swift in Sources */,
+				4BA0F74B266B3C54005B6ED2 /* addViewController.swift in Sources */,
 				4BA3F73E249F03DB003DC593 /* mokuziViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
